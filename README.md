@@ -1,11 +1,3 @@
-# Here are some basic exercises in Python
-Here are some simple python exercices:
-# Write a program in python that displays and count all even numbers between 1 and 100:
-even_number = 0
-for number inm range(1,100):
-  if number % 2 == 0:
-  even_number +=
-  print(number)
-print(f"we have {even_number} even numbers between 1 and 100")
+# Simple programs using python
 
 
