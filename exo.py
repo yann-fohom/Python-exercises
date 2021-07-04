@@ -5,4 +5,5 @@ for number in range(1,100):
   even_number +=
   print(number)
 print(f"we have {even_number} even numbers between 1 and 100")
+# Bonus: for odd numbers just modify the if statement and check all gthe numbers wher the modulo (%) is = 1, ie: number%2 ==1
 
