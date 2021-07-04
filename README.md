@@ -1,3 +1,3 @@
-# Simple programs using python
+# Simple programs using python (check exo.py)
 
 
