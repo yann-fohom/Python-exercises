@@ -2,7 +2,7 @@
 even_number = 0
 for number in range(1,100):
   if number % 2 == 0:
-  even_number +=
+  even_number += 1
   print(number)
 print(f"we have {even_number} even numbers between 1 and 100")
 # Bonus: for odd numbers just modify the if statement and check all the numbers where the modulo (%) is = 1, ie: number%2 ==1
