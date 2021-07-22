@@ -1,15 +1,15 @@
 def fizz_buzz(input): 
 
-    if input == 3:
-        print ("Fizz")
+    if (input % 3 == 0) and (input % 5 == 0):
+        return "FizzBuzz" 
+        
+    if input % 3 == 0:
+        return "Fizz"
 
-    elif input == 5:
-        print ("Buzz") 
+    if input % 5 == 0:
+        return "Buzz"
 
-    elif input == (3 * 5):
-        print ("FizzBuzz") 
 
-    else:
-        print (input) 
+    return input 
 
-fizz_buzz(1)
+print(fizz_buzz(5))
